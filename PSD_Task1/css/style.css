@@ -1,0 +1,333 @@
+body {
+    background: #f5f5f5;
+    font: 13px/1.1em Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+h2 span,
+h4 span {
+    color: #a7c46c;
+}
+header {
+    overflow: hidden;
+    padding: 25px 0;
+}
+header > div {
+    margin: auto;
+    overflow: hidden;
+    width: 980px;
+}
+header span {
+    float: right;
+}
+.logo {
+    background: url(../images/logo.png) no-repeat;
+    display: block;
+    float: left;
+    overflow: hidden;
+    height: 60px;
+    width: 280px;
+}
+header .main-menu {
+    float: right;
+}
+.main-menu li {
+    float: left;    
+}
+.main-menu a {
+    color: #000000;
+    font-size: 15px;
+    display: block;
+    padding: 20px;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-menu li a:hover {
+    background: #9fc63f;
+}
+.rotator {
+    background: #9fc63f;
+    clear: both;
+    height: 415px;
+    position: relative;
+}
+.rotator .previous {
+    background: url(../images/prev.png) center left no-repeat;
+    display: block;
+    height: 60px;
+    left: 100px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+.rotator .next {
+    background: url(../images/next.png) center right no-repeat;
+    display: block;
+    height: 60px;
+    right: 100px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+}
+.rotator .wrapper {
+    height: 415px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+}
+.rotator ul {
+    position: absolute;
+    top: 0;
+}
+.rotator li {
+    float: left;
+    height: 415px;
+    width: 960px;
+    position: relative;
+}
+.slide0, .slide1, .slide2 {
+    background: url(../images/desktop.png) center left no-repeat;
+}
+.slide0 div,
+.slide1 div,
+.slide2 div {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.5;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 75px;
+    width: 400px;
+}
+.content {
+    margin: 0 auto 100px auto;
+    overflow: hidden;
+    width: 960px;
+}
+.content h2 {
+    background: url(../images/dash.png) bottom repeat-x;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+.services {
+    margin: 40px auto 50px auto;
+    overflow: hidden;
+}
+.services li {
+    float: left;
+    margin-right: 75px;
+}
+.services li:last-child {
+    margin-right: 0;
+}
+.services .disc1 {
+    background: #ffffff;
+    width: 178px;
+    height: 178px;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.services .disc2 {
+    background: #8eb63e;
+    width: 140px;
+    height: 140px;
+    margin: 19px;
+    border-radius: 50%;
+}
+.services .icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 140px;
+    width: 140px;
+}
+.services .amazing {
+    background-image: url(../images/support.png);
+}
+.services .hour {
+    background-image: url(../images/telephone.png);
+}
+.services .web {
+    background-image: url(../images/settings.png);
+}
+.services .mobile {
+    background-image: url(../images/mobile.png);
+}
+.services h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.services h5 {
+    font-size: 15px;
+    text-align: center;
+}
+.sub-header {
+    background: url(../images/dash.png) center repeat-x;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.sub-header h4 {
+    font-size: 20px;    
+    margin-left: 35px;
+    padding: 4px;
+}
+.portfolio {
+    border: 1px solid #ebebeb;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 26px;
+    width: 465px;
+}
+.portfolio:nth-child(2n+1) {
+    margin-right: 0;
+}
+.portfolio img {
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    width: 225pz;
+}
+.portfolio h5 {
+    font-size: 15px;
+    margin: 15px 0 10px 0;
+}
+.portfolio a {
+    background: #8eb63e;
+    color: #ffffff;
+    padding: 3px 10px;
+    text-decoration: none;
+}
+.portfolio p {
+    margin-top: 10px;
+}
+.advertiser {
+    clear: both;
+    overflow: hidden;
+}
+.advertiser li {
+    float: left;
+}
+.advertiser img {
+    height: 130px;
+    width: 160px;
+}
+.footer {
+    background: #ffffff;
+    border-top: 2px solid #ece9e9;
+    border-bottom: 2px solid #ece9e9;
+    clear: both;
+    overflow: hidden;
+}
+.footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 40px 0 30px 0;
+    width: 960px;
+}
+.footer-content > div {
+    float: left;
+    margin-right: 40px;
+    width: 200px;
+}
+.footer-content > div:last-child {
+    margin-right: 0;
+    width: 240px;
+}
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer p {
+    margin-bottom: 20px;
+}
+.links li {
+    display: inline-block;
+}
+.links a {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    width: 25px;
+}
+.facebook {
+    background-image: url(../images/facebook.png);
+}
+.twitter {
+    background-image: url(../images/twitter.png);
+}
+.dribble {
+    background-image: url(../images/dribble.png);
+}
+.msn {
+    background-image: url(../images/msn.png);
+}
+.rss {
+    background-image: url(../images/rss.png);
+}
+.vimeo {
+    background-image: url(../images/vimeo.png);
+}
+.archive li {
+    border-bottom: 1px dotted #000000;
+    padding: 10px 0;
+}
+.archive li:first-child {
+    padding-top: 0;
+}
+.contact i {
+    font-size: 25px;
+    margin-right: 15px;
+}
+.contact span {
+    display: block;
+    padding: 10px 0;
+}
+.contact span:first-child {
+    padding-top: 0;
+}
+.sign-in input[type=text] {
+    background: #fafafa;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.sign-in input[type=submit] {
+    background: #8eb63e;
+    color: #ffffff;
+    float: right;
+    padding: 10px 5px;
+}
+.base-footer {
+    background: #000000;
+    padding: 10px 0;
+}
+.bf-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+.base-footer .footer-nav li {
+    float: left;
+}
+.base-footer .footer-nav a {
+    color: #ffffff;
+     padding: 0 5px;
+    text-decoration: none;
+}
+.copy {
+    float: right;
+    color: #ffffff;   
+}
