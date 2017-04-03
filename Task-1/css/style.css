@@ -1,0 +1,690 @@
+.top-header {
+    background: #000000;
+    padding: 10px 0;
+}
+.links a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+.contact-detail {
+    color: #ffffff;
+}
+.navbar {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 10px; 
+    margin: 0;   
+}
+.sign-in a {
+    border: 1px solid #4ca368;
+    border-radius: 30px;
+    color: #4ca368 !important;
+}
+.bg {
+    background: #4ca368;
+    clear: both;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.bg h2 {
+    font-size: 35px;
+}
+.bg p {
+    line-height: 1.5;
+    margin: 20px 0 40px 0;
+}
+.bg1 {
+    background: url(../img/bg2.png) no-repeat;
+    background-size: cover;
+    clear: both;
+    position: relative; 
+    color: #ffffff;  
+}
+.bg1 .email-content {
+    padding: 30px 0;
+    background: #efefef;
+    color: #000000;
+}
+.bg1 .email-content p {
+    margin-top: 15px;
+}
+.bg1 h2 {
+    margin-top: 100px;
+}
+.bg1 input[type=text] {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.bg1 button[type=button] {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bg2 {
+    background: rgba(156, 135, 135, 0.4);
+    width: 630px;
+    overflow: hidden;
+    margin: 40px auto 40px auto;
+    position: relative;
+}
+.signin-wrapper {
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.up-arrow {
+    background: url(../img/arrow2.png) no-repeat;
+    height: 15px;
+    position: absolute;
+    left: 260px;
+    top: 30px;
+    overflow: hidden;
+    width: 35px;
+}
+.down-arrow {
+    background: url(../img/arrow3.png) no-repeat;
+    height: 15px;
+    position: absolute;
+    left: 260px;
+    top: 60px;
+    overflow: hidden;
+    width: 35px;
+}
+.user {
+    position: absolute;
+    left: 160px;
+    top: 110px;
+    background: url(../img/arrow1.png) no-repeat;
+    display: block;
+    height: 60px;
+    width: 70px;
+}
+.user-guide {
+    position: absolute;
+    left: 230px;
+    top: 110px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 1.5;
+}
+.user-guide h4 {
+    color: #5db442;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.signup-guide {
+    width: 630px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.disc {
+    background: #3d5a26;
+    border-radius: 50%; 
+    margin: auto;
+    width: 46px;
+    height: 46px;
+}
+.white-circle {
+    background: #ffffff;
+}
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 46px;
+}
+.edition {
+    background-image: url(../img/img1.png)
+}
+.process {
+    background-image: url(../img/img2.png)
+}
+.sign {
+    background-image: url(../img/img3.png)
+}
+.bg3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg3 .edit {
+    margin: 40px 0;
+}
+.btn-group > .btn:first-child {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btn-group > .btn:last-child {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.panel {
+      border-radius: 0;
+      border: 1px solid #ececec;
+}
+.panel-heading {
+    background: #ffffff !important;
+    padding-bottom: 60px;
+    position: relative;
+}
+.panel-heading h4:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: #ececec;
+    top: 0;
+    left: 34%;
+}
+.panel-heading .green-line:before {
+    background: #5db442;
+}
+.panel-body {
+    padding-top: 70px;
+    position: relative;
+}
+.panel-body .disc1 {
+    background:#ececec;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    height: 98px;
+    width: 98px;
+    top: -50px;
+    left: 35%;
+}
+.disc2 {
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #93cd81;
+    height: 90px;
+    margin: 4px;
+    width: 90px;   
+    position: relative;
+}
+.icon2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 94px;
+    width: 94px;
+    position: relative;
+}
+.icon2 .dollar {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 18px;
+    left: 24px;
+}
+.icon2 .month {
+    font-size: 12px;
+    position: absolute;
+    left: 18px;
+    bottom: 26px;
+}
+.panel-body li {
+    margin-bottom: 10px;
+}
+.panel-body .back {
+    color: #ffffff;
+    background: #7dc368;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 8px;   
+}
+.panel-body .bg-gray {
+    background: #cccccc;
+}
+.border {
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+.border-green {
+    background: #5db442;
+    color: #ffffff;   
+}
+.bg4 {
+    background: url(../img/pattern.png) no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.platfrom h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.p-content h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 35px 0;
+    position: relative;
+}
+.p-content h4:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: #ececec;
+    top: -20px;
+    left: 34%;
+}
+.p-content img {
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+}
+.p-content p {
+    margin-bottom: 50px;
+}
+.p-content {
+    border: 1px solid #fbfbfb;
+    background: #ffffff;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.green-bg {
+    background: #5db442;
+}
+.footer {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #efefef;
+    border-bottom: 1px solid #e1e2e3;
+}
+.footer h4 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.footer p {
+    margin-bottom: 15px;
+}
+.mail {
+    border: none;
+    border-radius: 0;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 2;
+}
+.base-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #efefef;
+}
+.copy {
+    text-align: right;
+}
+@media (min-width: 480px) {
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .panel-body .disc1 {
+    background:#ececec;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    height: 98px;
+    width: 98px;
+    top: -50px;
+    left: 22%;
+}
+.panel-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+.p-content h4:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: #ececec;
+    top: -20px;
+    left: 16%;
+}
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .top-header {
+    background: #000000;
+    padding: 10px 0;
+}
+.links a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+}
+.contact-detail {
+    color: #ffffff;
+}
+.navbar {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    padding: 10px; 
+    margin: 0;   
+}
+.sign-in a {
+    border: 1px solid #4ca368;
+    border-radius: 30px;
+    color: #4ca368 !important;
+}
+.bg {
+    background: #4ca368;
+    clear: both;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.bg h2 {
+    font-size: 35px;
+}
+.bg p {
+    line-height: 1.5;
+    margin: 20px 0 40px 0;
+}
+.bg1 {
+    background: url(../img/bg2.png) no-repeat;
+    background-size: cover;
+    clear: both;
+    position: relative; 
+    color: #ffffff;  
+}
+.bg1 .email-content {
+    padding: 30px 0;
+    background: #efefef;
+    color: #000000;
+}
+.bg1 .email-content p {
+    margin-top: 15px;
+}
+.bg1 h2 {
+    margin-top: 100px;
+}
+.bg1 input[type=text] {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.bg1 button[type=button] {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bg2 {
+    background: rgba(156, 135, 135, 0.4);
+    width: 630px;
+    overflow: hidden;
+    margin: 40px auto 40px auto;
+    position: relative;
+}
+.signin-wrapper {
+    width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.up-arrow {
+    background: url(../img/arrow2.png) no-repeat;
+    height: 15px;
+    position: absolute;
+    left: 260px;
+    top: 30px;
+    overflow: hidden;
+    width: 35px;
+}
+.down-arrow {
+    background: url(../img/arrow3.png) no-repeat;
+    height: 15px;
+    position: absolute;
+    left: 260px;
+    top: 60px;
+    overflow: hidden;
+    width: 35px;
+}
+.user {
+    position: absolute;
+    left: 160px;
+    top: 110px;
+    background: url(../img/arrow1.png) no-repeat;
+    display: block;
+    height: 60px;
+    width: 70px;
+}
+.user-guide {
+    position: absolute;
+    left: 230px;
+    top: 110px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 1.5;
+}
+.user-guide h4 {
+    color: #5db442;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.signup-guide {
+    width: 630px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.disc {
+    background: #3d5a26;
+    border-radius: 50%; 
+    margin: auto;
+    width: 46px;
+    height: 46px;
+}
+.white-circle {
+    background: #ffffff;
+}
+.icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 46px;
+}
+.edition {
+    background-image: url(../img/img1.png)
+}
+.process {
+    background-image: url(../img/img2.png)
+}
+.sign {
+    background-image: url(../img/img3.png)
+}
+.bg3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg3 h5 {
+    margin: 40px 0;
+}
+.panel {
+      border-radius: 0;
+      border: 1px solid #ececec;
+}
+.panel-heading {
+    background: #ffffff !important;
+    padding-bottom: 60px;
+    position: relative;
+}
+.panel-heading h4:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: #ececec;
+    top: 0;
+    left: 34%;
+}
+.panel-heading .green-line:before {
+    background: #5db442;
+}
+.panel-body {
+    padding-top: 70px;
+    position: relative;
+}
+.panel-body .disc1 {
+    background:#ececec;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    height: 98px;
+    width: 98px;
+    top: -50px;
+    left: 28%;
+}
+.disc2 {
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #93cd81;
+    height: 90px;
+    margin: 4px;
+    width: 90px;   
+    position: relative;
+}
+.icon2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 94px;
+    width: 94px;
+    position: relative;
+}
+.icon2 .dollar {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 18px;
+    left: 24px;
+}
+.icon2 .month {
+    font-size: 12px;
+    position: absolute;
+    left: 18px;
+    bottom: 26px;
+}
+.panel-body li {
+    margin-bottom: 10px;
+}
+.panel-body .back {
+    color: #ffffff;
+    background: #7dc368;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 8px;   
+}
+.panel-body .bg-gray {
+    background: #cccccc;
+}
+.border {
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin: 20px 0;
+}
+.border-green {
+    background: #5db442;
+    color: #ffffff;   
+}
+.bg4 {
+    background: url(../img/pattern.png) no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.platfrom h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+.p-content h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 35px 0;
+    position: relative;
+}
+.p-content h4:before {
+    content: "";
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background: #ececec;
+    top: -20px;
+    left: 34%;
+}
+.p-content img {
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+}
+.p-content p {
+    margin-bottom: 50px;
+}
+.p-content {
+    border: 1px solid #fbfbfb;
+    background: #ffffff;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.green-bg {
+    background: #5db442;
+}
+.footer {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background: #efefef;
+    border-bottom: 1px solid #e1e2e3;
+}
+.footer h4 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.footer p {
+    margin-bottom: 15px;
+}
+.mail {
+    border: none;
+    border-radius: 0;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 2;
+}
+.base-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #efefef;
+}
+.copy {
+    text-align: right;
+}
+    
+}
