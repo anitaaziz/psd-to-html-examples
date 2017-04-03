@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+		<title>Theme</title>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<link href="css/styles.css" rel="stylesheet">
+		
+		
+    </head>
+    <body>
+        <div class="container" id="main">
+            <div class="navbar navbar-fixed-top">
+                <div class="container">
+                    <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                    <div class="nav-collapse collapse navbar-responsive-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Web Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Web Development</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SEO</a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li class="dropdown-header">More Services</li>
+                                    <li>
+                                        <a href="#">Content Creation</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Social Media Marketing</a>
+                                    </li>
+                                </ul><!--end dropdown-menu-->
+                            </li>
+                        </ul>
+                        <form class="navbar-form pull-left">
+                            <input type="text" class="form-control" placeholder="Search this site.." id="searchInput">
+                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                        </form><!--end navbar-form-->
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#"><span class="glyphicon glyphicon-wrench"></span> Setting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="glyphicon glyphicon-refresh"> Update Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span class="glyphicon glyphicon-briefcase"> Billing</a>
+                                    </li>
+                                    <li class="divider"><li>
+                                    <li>
+                                        <a href="#"><span class="glyphicon glyphicon-off"> Sign out</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                        </ul><!--end pull-right-->
+
+                    </div><!--end nav-collapse-->
+
+                </div><!--end container-->
+
+            </div><!--end nav-->
+
+            <div class="carousel slide" id="myCarousel">
+                <!-- Indicators-->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-target="#myCarousel"></li>
+                </ol>
+                <!-- Wrapper for slides-->
+                <div class="carousel-inner">
+                    <div class="item active" id="slide1">
+                        <div class="carousel-caption">
+                            <h4>Bootstrap 3</h4>
+                            <p>
+                                Learn how to build your first responsive 
+                                website with brand new Twitter
+                            </p>
+                        </div><!--end carousel-caption-->
+                    </div><!-- end-item-->
+                    <div class="item" id="slide2">
+                        <div class="carousel-caption">
+                            <h4>Learn to code website in 4 Hours</h4>
+                            <p>
+                                Learn how to build your first responsive 
+                                website with brand new Twitter
+                            </p>
+                        </div><!--end carousel-caption-->
+                    </div><!-- end-item-->
+                    <div class="item" id="slide3">
+                        <div class="carousel-caption">
+                            <h4>Web Hosting</h4>
+                            <p>
+                                Learn how to build your first responsive 
+                                website with brand new Twitter
+                            </p>
+                        </div><!--end carousel-caption-->
+                    </div><!-- end-item-->
+                    
+                </div><!--end carousel-inner-->
+                <!-- Controls-->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+            </div><!--end carousel-->
+
+            <div class="row" id="bigCallout">
+                <div class="col-12">
+                    <div class="alert alert-success alert-block fade in" id="successAlert">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <h4>Success!..</h4>
+                        <p>You just made this element display by using jQuery.Click the "x" in top right corner to close the alert box.</p>
+                    </div><!--end-alert-->
+        
+                    <div class="well well-small visible-sm">
+                        <a href="#" class="btn btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call</a>
+                    </div><!--end well-small-->
+                    <div class="well">
+                        <div class="page-header">
+                            <h2>A Fancy header <small>A Sub-header for extra awsome</small></h2>
+                        </div><!-- end page-header-->
+                        <p class="lead">
+                            Some solid leading copy will get your user engage.Use this area 
+                            to come up with somthing really nice.
+                        </p>
+                        <a href="#" class="btn btn-large btn-primary" id="alertMe">Click a nice big button</a>
+                        <a href="#" class="btn btn-large btn-link">or a secondary link</a>
+                    </div><!--end well-->
+                </div><!--end col-12-->
+            </div><!--end bigCallout-->
+            <div class="row" id="featureHeading">
+                <div class="col-12">
+                    <h3>More features</h3>
+                    <p class="lead">Some solid leading copy will get your user engage.Use this area to come up with somthing really nice.</p>                  
+                </div>
+            </div><!--end featuresHeading-->                       
+            <div class="row" id="features">
+                <div class="col-sm-4 feature">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Markup with HTML5</h4>
+                        </div><!-- end-panel heading-->
+                        <img src="images/badge_html5.jpg" alt="html5" class="img-circle">
+                        <p>Some solid leading copy will get your user engage.Use this area to come up with somthing really nice.</p>
+                        <a href="#" class="btn btn-info btn-block">More Bootstrap</a>
+                    </div><!-- end-panel-->
+                </div><!-- end col-sm-4-->                 
+                <div class="col-sm-4 feature">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Style with CSS3</h4>
+                        </div><!-- end-panel heading-->
+                        <img src="images/badge_css3.jpg" alt="css3" class="img-circle">
+                        <p>Some solid leading copy will get your user engage.Use this area to come up with somthing really nice.</p>
+                        <a href="#" class="btn btn-danger btn-block">Style it up with CSS3</a>
+                    </div><!-- end-panel-->
+                </div><!-- end col-sm-4-->
+                <div class="col-sm-4 feature">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Frame work by Bootstrap 3</h4>                           
+                        </div><!-- end-panel heading-->
+                        <img src="images/badge_bootstrap.jpg" alt="badge1" class="img-circle">
+                        <p>Some solid leading copy will get your user engage.Use this area to come up with somthing really nice.</p>
+                        <a href="#" class="btn btn-warning btn-block">Learn to Code HTML5</a>
+                    </div><!-- end-panel-->
+                </div><!-- end col-sm-4-->
+            </div><!--end features-->
+            <div class="row" id="moreInfo">
+                <div class="col-sm-6">
+                    <h3>Neat Tabeable Content</h3>
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                            <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                <h4><span class="glyphicon glyphicon-map-marker"></span>Our Location <small>more like our favourite surf spot</small></h4>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.034294423488!2d67.13379341458537!3d24.794279184085184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b2155c94781%3A0x26805f70e2385ff3!2sPAF+KIET!5e0!3m2!1sen!2s!4v1488843870781" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <p>
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                </p>
+                                <p>
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                </p>
+                            </div><!--end tab-pane-->
+                            <div class="tab-pane" id="tab2">
+                                <h4>A left floated picture <small>using placehold.it</small></h4>
+                                <img src="http://placehold.it/150" class="thumbnail pull-left">
+                                <p>
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                </p>
+                                <p>
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                </p>
+                                <hr>
+                                <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window</a>
+                                <div class="modal fade" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">A Modal Window</h4>
+                                            </div><!--end modal-header-->
+                                            <div class="modal-body">
+                                                <h4>Text in a Modal</h4>
+                                                <p>
+                                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                                    Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                                </p>
+                                                <h4>Popovers in a Modal</h4>
+                                                <a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="top" data-original-title="You Clicked it!" data-content="I knew you would.">Dont Click this Button</a>
+                                                <h4>Tooltips in modal</h4>
+                                                <a href="#" data-original-title="Tooltip" rel="tooltip">This link</a> should have a tooltip,and so should <a href="#" data-original-title="Woohooo" rel="tooltip">this one!</a>
+                                                <hr>
+                                                <p><small class="text-muted">PS.This form dosent do anything just a heads up</small></p>
+                                                <form class="form-horizontal">
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label" for="inputName">Name</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-lg-2 control-label" for="inputMesssage">Message</label>
+                                                        <div class="col-lg-10">
+                                                            <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                                                            <button type="submit" class="btn btn-success pull-right">Send</button>
+                                                        </div>
+                                                    </div>
+
+                                                </form>
+                                            </div><!--end modal-body-->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save Changes</button>
+                                            </div><!--end Modal-footer-->
+
+                                        </div><!--end modal-content-->
+
+                                    </div><!--end modal-dialog-->
+
+                                </div><!--end myModal-->
+                            </div>
+                        </div><!--end tab-content-->
+                    </div><!--end tabbable-->
+                </div><!-- end-col-6-->
+                <div class="col-sm-6">
+                    <h3>Some text Info</h3>
+                    <p>
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                    </p>
+                    <h4>A List group</h4>
+                    <div class="list-group">
+                        <a class="list-group-item">
+                            <h4 class="List-group-item-heading">Item-1</h4>
+                            <p class="list-group-item-text">
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                            </p>
+                        </a>
+                        <a class="list-group-item">
+                            <h4 class="List-group-item-heading">Item-2</h4>
+                            <p class="list-group-item-text">
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                            </p>
+                        </a>
+                        <a class="list-group-item">
+                            <h4 class="List-group-item-heading">Item-3</h4>
+                            <p class="list-group-item-text">
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                                Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                            </p>
+                        </a>
+                   </div><!--end list-group-->
+                   <h5>A Small heading</h5>
+                   <p>
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                   </p>
+                </div><!--end col-sm-6-->
+            </div><!--end moreInfo-->
+            <hr>
+            <div class="row" id="moreCourses">
+                <div class="col-sm-12">
+                    <h3>learn more about web-Design</h3>
+                    <div class="thumbnails row">
+                        <div class="col-sm-6">
+                            <div class="thumbnail">
+                                <img src="images/item_psd2html5.jpg" alt="Web-hosting">
+                                <div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>39</div>
+                                <div class="caption">
+                                    <h3>PSD to HTML5 &amp; CSS</h3>
+                                    <p>Some solid leading copy will get your user engage.Use this area to come up with somthing really nice</p>
+                                    <a href="#" class="btn btn-primary">Take Course</a>
+                                    <a href="#" class="btn btn-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div><!--end col-sm-6-->
+                        <div class="col-sm-6">
+                            <div class="thumbnail">
+                                <img src="images/item_webhosting101.jpg" alt="Web-hosting">
+                                <div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+                                <div class="caption">
+                                    <h3>Web hosting-101</h3>
+                                    <p>Some solid leading copy will get your user engage.Use this area to come up with somthing really nice</p>
+                                    <a href="#" class="btn btn-primary">Take Course</a>
+                                    <a href="#" class="btn btn-link">Learn More</a>
+                                </div>
+                            </div>
+                        </div><!--end col-sm-6-->
+                    </div><!--end thumbnails-row-->
+
+                </div><!--end col-sm-12-->
+
+            </div><!--end moreCourses-->
+
+        </div><!--end container-->
+        <footer>
+            <div class="container">
+                <div class="col-sm-2">
+                    <h6>Copyright &copy; 2013 {name}</h6>
+                </div>
+                <div class="col-sm-4">
+                    <h6>About us</h6>
+                    <p>
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                        Some solid leading copy will get your user engage.Use this area to come up with somthing really nice
+                    </p>        
+                </div>
+                
+                <div class="col-sm-2">
+                    <h6>Navigation</h6>
+                    <ul class="unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>                
+                </div>
+                <div class="col-sm-2">
+                    <h6>Follow us</h6>
+                    <ul class="unstyled">
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Google plus</a></li>
+                    </ul>                     
+                </div>
+                <div class="col-sm-2">
+                    <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Anita Azizs</h6>
+                </div>
+            </div>
+
+        </footer>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="js/script.js"></script>
+        
+    </body>
+</html>
