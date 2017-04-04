@@ -1,0 +1,263 @@
+body {
+    color: #0f5f5c;
+    font-family: Myriad Pro;
+    font-size: 16px;
+}
+.cover {
+    background-image: url(../img/layer.png);
+    background-size: cover;
+    height: 100%;
+}
+.navbar-default {
+    background: rgba(41, 99, 101, 0.76);
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.navbar-nav .active a {
+    background: #009688 !important;
+    color: #ffffff !important;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.navbar-nav li a {
+    color: #ffffff !important;
+}
+.contact {
+    margin-top: 10px;
+    border-left: 1px solid #ffffff;
+    padding: 8px 20px;
+}
+.welcome {
+    padding: 200px 0;
+    color: #ffffff;
+}
+.section-content {
+    padding: 80px 0;
+}
+.section-content h3 {
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-content h3:after {
+    background: #6fb048;
+    content: "";
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    bottom: -15px;
+    left: 47%;
+}
+.welcome button {
+    padding: 10px 40px;
+    border-radius: 0;
+}
+.features {
+    margin-bottom: 60px;
+}
+.features img {
+    margin: 60px auto 25px auto;
+}
+.features p {
+    margin-top: 25px;
+}
+.ideas {
+    margin-bottom: 60px;
+}
+.vector {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.ideas img {
+    margin-right: 20px;
+}
+.ideas p {
+    margin-top: 20px;
+}
+.cover2 {
+    background: #eef1ec;
+}
+.cover2-content {
+    padding: 75px 0;
+}
+.cover2 h3 {
+    position: relative;
+    margin-bottom: 40px;
+}
+.cover2 h3:after {
+    background: #6fb048;
+    content: "";
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    bottom: -15px;
+    left: 47%;
+}
+.cover2 h4 {
+    font-size: 25px;
+}
+.template {
+    padding-top: 100px;
+    line-height: 1.5;
+}
+.template .glyphicon {
+    font-size: 15px;
+    color: #6fb048;
+    border: 1px solid #6fb048;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 10px 6px 0;
+}
+.cover3-content {
+    padding: 100px 0;
+}
+.details {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cover3-content img {
+    margin: auto;
+}
+.cover3 p {
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 55px;
+}
+.cover3 a {
+    color: #6fb048;
+}
+.cover4 {
+    background: #eef1ec;
+}
+.cover4-content {
+    padding: 60px 0;
+}
+.cover5-content {
+    padding: 90px 0;
+    font-size: 16px;   
+}
+.cover5 .pricing {
+    margin: 40px 0 70px 0;   
+}
+.cover5 .basic {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.pricing h5 {
+    font-size: 16px;
+    color: #6fb048;
+}
+.cover5 .dollar {
+    font-size: 35px;
+    font-weight: bold;
+}
+.cover5 ul {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+.cover5 h3 {
+    margin-bottom: 30px;
+    position: relative;
+}
+.cover5 .glyphicon {
+    font-size: 15px;
+    color: #6fb048;
+    border: 1px solid #6fb048;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 12px;
+    margin-bottom: 6px;
+}
+.cover5 h3:after {
+    background: #6fb048;
+    content: "";
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    bottom: -15px;
+    left: 47%;
+}
+.list {
+    margin: 50px 0;
+}
+.cover5 .list li {
+    margin-bottom: 10px;
+}
+.support p {
+    margin-bottom: 40px;
+}
+.support a {
+    color: #0f5f5c;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cover6 {
+    background: url(../img/layer1.png) no-repeat center center;
+}
+.cover6-content {
+    padding: 70px 0;
+}
+.cover6 span {
+    font-size: 35px;
+}
+.cover6 button {
+    border-radius: 0;
+    margin-top: 15px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+.footer-content {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    line-height: 1.8;
+    border-bottom: 1px solid #83a7a5;
+}
+.footer span {
+    display: block;
+}
+.footer a {
+    color: #0f5f5c;
+}
+.footer img {
+    margin-bottom: 10px;
+}
+.base-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.base-footer ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-links .icon {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.twitter {
+    background: url(../img/twitter.png) #55acee; ;   
+}
+.facebook {
+    background: url(../img/facebook.png) #3b5998 ;  
+}
+.insta {
+    background: url(../img/insta.png) #3f729b ;  
+}
+.flicker {
+    background: url(../img/ball.png) #ea4c89 ;   
+}
+.msn {
+    background: url(../img/cat.png) #333333 ;   
+}
+.copy {
+    margin-top: 10px;
+}
+
