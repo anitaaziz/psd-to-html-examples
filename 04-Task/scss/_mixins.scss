@@ -1,0 +1,11 @@
+@mixin disc($rad, $height, $width, $bg,$margin) {
+    -webkit-border-radius: $rad;
+    -moz-border-radius: $rad;
+    -ms-border-radius: $rad;
+    border-radius: $rad;
+    height: $height;
+    width: $width;
+    line-height: $height;
+    background: $bg;
+    margin: $margin;
+}

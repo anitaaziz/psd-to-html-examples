@@ -1,0 +1,181 @@
+@import '_header';
+@import '_variables';
+@import '_mixins';
+.carousel {
+    background: $green;
+    padding: 25px 0;
+    height: 400px;
+    position: relative;
+    color: #ffffff;
+    .caption-box {
+        width: 350px;
+        overflow: hidden;
+        p {
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    }
+    .left img {
+        position: absolute;
+        top: 50%;
+    }
+}
+.content {
+    background: $offwhite;  
+    padding-top: 35px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ece9e9;
+     h2 {
+        background: url(../images/dash.png) repeat-x bottom;
+        padding-bottom: 35px;
+        }
+    .services {
+        margin: 40px auto 50px auto;
+        .disc1 {
+            @include disc(50%, 178px, 178px, #f9f9f9, auto);
+            border: 1px solid #efefef;
+        }
+        .disc2 {
+           @include disc(50%, 138px, 138px, $green, 20px);
+        }
+        .icon {
+            height: 138px;
+            width: 138px;
+            overflow: hidden;
+        }
+        .support {
+            background: url(../images/support.png) center center no-repeat;
+        }
+        .telephone {
+            background: url(../images/telephone.png) center center no-repeat;
+        }
+        .setting {
+            background: url(../images/settings.png) center center no-repeat;
+        }
+        .mobile {
+            background: url(../images/mobile.png) center center no-repeat;
+        }
+    }
+     .sub-header {
+            background: url(../images/dash.png) repeat-x center;
+            margin-bottom: 40px; 
+            h4 {      
+                font-size: 22px;
+                margin-left: 35px;
+                span {
+                    color: $green;
+                }   
+            }       
+        }   
+
+    .portfolio {   
+        margin-bottom: 40px !important;
+
+        h5 {
+            font-size: 18px;
+        }
+        img {
+            margin-bottom: 25px;
+        }
+        button {
+            background: $green;
+            border-radius: 0;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+
+    }
+    .advertiser {
+        margin-top: 40px;
+
+        img {
+            margin: auto;
+        }
+    }
+}
+.footer {
+    .footer-content {
+        padding-top: 40px;
+        padding-bottom: 28px;
+    }
+    h5 {
+        font-size: 18px;
+        margin-bottom: 25px
+    }
+    p {
+        margin-bottom: 30px;
+    }
+    .links ul {
+        margin-top: 15px;
+    }
+    .icon {
+        height: 20px;
+        width: 20px;
+        display: block;
+    }
+    .facebook {
+        background: url(../images/facebook.png) no-repeat center;
+    }
+    .twitter {
+        background: url(../images/twitter.png) no-repeat center;
+    }
+    .rss {
+        background: url(../images/rss.png) no-repeat center;
+    }
+    .vimeo {
+        background: url(../images/vimeo.png) no-repeat center;
+    }
+    .dribble {
+        background: url(../images/dribble.png) no-repeat center;
+    }
+    .msn {
+        background: url(../images/msn.png) no-repeat center;
+    }
+    .archive {
+        li {
+            padding: 15px 0;
+            border-bottom: 1px dotted #ece9e9;
+         }
+         a {
+             color: #000000;
+             text-decoration: none;
+         }
+         li:first-child {
+             padding-top: 0;
+         }
+    }
+    .contact {
+        li {
+            margin-bottom: 25px;
+        }
+        .glyphicon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    }
+    input[type=text] {
+        background: #fafafa;
+        border-radius: 0;
+    }
+    button {
+        border-radius: 0;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+    
+    .base-footer {
+        background: #000000;
+        color: #ffffff;
+        padding-top: 10px;
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block;
+        }
+        a:hover {
+            background: #333333;
+        }
+    }
+
+}

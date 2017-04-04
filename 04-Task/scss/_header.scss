@@ -1,0 +1,30 @@
+
+@import '_variables';
+.navbar-default {
+    background: $offwhite !important;
+    border: none;
+    margin: 0;
+    .navbar-brand {
+        height: 65px;
+        margin-top: 15px;
+        padding: 0 0 0 15px;
+    }
+    .navbar-collapse {
+        border: none;
+    }
+
+    .navbar-nav {
+      a {
+          display: block;
+        padding: 40px 25px;
+        text-transform: uppercase;
+      }
+        .active a {
+        background: #f9f9f9 !important;
+        }
+        li:hover {
+            background: $green !important;
+        }
+    }
+    
+}

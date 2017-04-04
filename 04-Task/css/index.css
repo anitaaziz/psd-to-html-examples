@@ -1,0 +1,160 @@
+.navbar-default {
+  background: #fcfcfc !important;
+  border: none;
+  margin: 0; }
+  .navbar-default .navbar-brand {
+    height: 65px;
+    margin-top: 15px;
+    padding: 0 0 0 15px; }
+  .navbar-default .navbar-collapse {
+    border: none; }
+  .navbar-default .navbar-nav a {
+    display: block;
+    padding: 40px 25px;
+    text-transform: uppercase; }
+  .navbar-default .navbar-nav .active a {
+    background: #f9f9f9 !important; }
+  .navbar-default .navbar-nav li:hover {
+    background: #9fc63f !important; }
+
+.carousel {
+  background: #9fc63f;
+  padding: 25px 0;
+  height: 400px;
+  position: relative;
+  color: #ffffff; }
+  .carousel .caption-box {
+    width: 350px;
+    overflow: hidden; }
+    .carousel .caption-box p {
+      font-size: 20px;
+      text-transform: uppercase; }
+  .carousel .left img {
+    position: absolute;
+    top: 50%; }
+
+.content {
+  background: #fcfcfc;
+  padding-top: 35px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ece9e9; }
+  .content h2 {
+    background: url(../images/dash.png) repeat-x bottom;
+    padding-bottom: 35px; }
+  .content .services {
+    margin: 40px auto 50px auto; }
+    .content .services .disc1 {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      height: 178px;
+      width: 178px;
+      line-height: 178px;
+      background: #f9f9f9;
+      margin: auto;
+      border: 1px solid #efefef; }
+    .content .services .disc2 {
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      height: 138px;
+      width: 138px;
+      line-height: 138px;
+      background: #9fc63f;
+      margin: 20px; }
+    .content .services .icon {
+      height: 138px;
+      width: 138px;
+      overflow: hidden; }
+    .content .services .support {
+      background: url(../images/support.png) center center no-repeat; }
+    .content .services .telephone {
+      background: url(../images/telephone.png) center center no-repeat; }
+    .content .services .setting {
+      background: url(../images/settings.png) center center no-repeat; }
+    .content .services .mobile {
+      background: url(../images/mobile.png) center center no-repeat; }
+  .content .sub-header {
+    background: url(../images/dash.png) repeat-x center;
+    margin-bottom: 40px; }
+    .content .sub-header h4 {
+      font-size: 22px;
+      margin-left: 35px; }
+      .content .sub-header h4 span {
+        color: #9fc63f; }
+  .content .portfolio {
+    margin-bottom: 40px !important; }
+    .content .portfolio h5 {
+      font-size: 18px; }
+    .content .portfolio img {
+      margin-bottom: 25px; }
+    .content .portfolio button {
+      background: #9fc63f;
+      border-radius: 0;
+      padding: 5px 10px;
+      margin-bottom: 10px; }
+  .content .advertiser {
+    margin-top: 40px; }
+    .content .advertiser img {
+      margin: auto; }
+
+.footer .footer-content {
+  padding-top: 40px;
+  padding-bottom: 28px; }
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 25px; }
+.footer p {
+  margin-bottom: 30px; }
+.footer .links ul {
+  margin-top: 15px; }
+.footer .icon {
+  height: 20px;
+  width: 20px;
+  display: block; }
+.footer .facebook {
+  background: url(../images/facebook.png) no-repeat center; }
+.footer .twitter {
+  background: url(../images/twitter.png) no-repeat center; }
+.footer .rss {
+  background: url(../images/rss.png) no-repeat center; }
+.footer .vimeo {
+  background: url(../images/vimeo.png) no-repeat center; }
+.footer .dribble {
+  background: url(../images/dribble.png) no-repeat center; }
+.footer .msn {
+  background: url(../images/msn.png) no-repeat center; }
+.footer .archive li {
+  padding: 15px 0;
+  border-bottom: 1px dotted #ece9e9; }
+.footer .archive a {
+  color: #000000;
+  text-decoration: none; }
+.footer .archive li:first-child {
+  padding-top: 0; }
+.footer .contact li {
+  margin-bottom: 25px; }
+.footer .contact .glyphicon {
+  font-size: 20px;
+  margin-right: 10px; }
+.footer input[type=text] {
+  background: #fafafa;
+  border-radius: 0; }
+.footer button {
+  border-radius: 0;
+  padding: 10px 15px;
+  margin-top: 10px; }
+.footer .base-footer {
+  background: #000000;
+  color: #ffffff;
+  padding-top: 10px; }
+  .footer .base-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block; }
+  .footer .base-footer a:hover {
+    background: #333333; }
+
+/*# sourceMappingURL=index.css.map */
