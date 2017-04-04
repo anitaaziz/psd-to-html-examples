@@ -1,0 +1,28 @@
+
+@import '_variables';
+@import '_header';
+@import '_footer';
+@import '_headline';
+
+
+
+ #content-contact {
+    margin-bottom: 50px;
+
+    .map {
+        margin-bottom: 30px;
+    }
+
+    input[type=text] {
+        border-radius: 0;
+        padding: 20px;
+    }
+    textarea {
+        border-radius: 0;
+        margin-bottom: 20px;
+    }
+    span {
+        float: right;
+        margin-top: 10px;
+    }
+}

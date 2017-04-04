@@ -1,0 +1,18 @@
+
+#headline {
+    background: $black;
+    color: $white;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+    .home {
+        background: $lightblue;
+        float: left;
+        margin: 20px 0;
+        padding: 15px 15px;
+    }
+    a {
+        color: $white;
+    }
+}

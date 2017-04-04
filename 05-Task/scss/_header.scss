@@ -1,0 +1,66 @@
+
+@import '_variables';
+.navbar {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    border: none !important;
+    min-height: 100px  !important;
+}
+.navbar-default {
+    background: #ffffff !important;
+
+    .navbar-collapse {
+        border: none;
+    }
+    .navbar-brand {
+    color: $darkgray;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    & span {
+        color: $lightblue;
+    }
+}    
+  .navbar-nav > .active>a,
+  .navbar-nav > .active>a:hover,
+  .navbar-nav > .active>a:focus
+    {
+    display: block;
+    background: $lightblue !important;
+    color: $white !important;
+    }
+  .navbar-nav > li a {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+  } 
+  .navbar-nav > li:hover:not(.active) {
+    background-color: $lightblue !important; 
+  }
+}
+
+ 
+
+
+#myModal {
+    .modal-body {
+        padding: 20px;
+    }
+    textarea {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {   
+  .navbar-default .navbar-nav > li a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  } 
+    .navbar-default .navbar-brand {
+        margin-top: 0;
+    }
+    .navbar-header {
+        margin-top: 15px;
+    }
+}
+  

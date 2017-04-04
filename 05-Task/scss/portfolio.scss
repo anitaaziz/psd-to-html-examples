@@ -1,0 +1,15 @@
+@import '_variables';
+@import '_header';
+@import '_footer';
+@import '_headline';
+.portfolio {
+    img {
+        margin: 15px 0;
+    }
+    h4 {
+        margin-top: 40px;
+    }
+    button {
+        margin-bottom: 10px;
+    }
+}
