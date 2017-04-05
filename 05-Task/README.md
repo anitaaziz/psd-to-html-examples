@@ -12,6 +12,8 @@
 
 ###### Blog
 
+![Blog Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/05-Task/screenshot-blog.png)
+
 ###### Contact
 
 
