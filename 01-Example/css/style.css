@@ -1,0 +1,35 @@
+body {
+    margin-top: 70px;
+}
+.box {
+    text-align: center;
+}
+.box span {
+    font-size: 40px;
+}
+.footer {
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+/*for Bootstrap5 */
+.bg1 {
+    background: #0000ff;
+    color: #ffffff;
+}
+.bg2 {
+    background: #00ff00;
+    color: #ffffff;
+}
+.bg3 {
+    background: #ff0000;
+    color: #ffffff;
+}
+.container-fluid {
+    padding: 60px 0;
+}
+.bg4 {
+    background: #000000;
+    color: #ffffff;
+}
