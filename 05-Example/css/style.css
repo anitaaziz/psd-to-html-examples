@@ -1,0 +1,90 @@
+body {
+    font-family: Myriad Pro;
+    color: #ffffff;
+}
+/* Navbar*/
+.navbar {
+    background: #f7fdfe;
+    padding: 10px 0;
+    margin: 0;
+}
+.navbar-nav > .active a {
+    padding: 15px 30px;
+    background: #0ebfdd !important;
+    border-radius: 30px;
+}
+/* Section*/
+#cover {
+    margin-top: 60px;
+    background: url(../images/layer.png) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+.bg1 {
+    padding: 400px 0 80px 0;
+}
+.bg2 {
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bg2 h2 {
+    color: #0ebfdd;
+    margin-bottom: 20px;
+}
+#cover1 {
+    background: #0ebfdd;
+    padding: 60px 0;
+}
+.staff {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg3 a {
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+.footer {
+    background: #45494d;
+    clear: both;
+    overflow: hidden;
+}
+.footer-content {
+    padding: 15px 0;
+    border-bottom: 1px solid #ffffff;
+}
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+/*.footer-links a {
+    display: block;
+    padding: 0;
+}*/
+.icon {
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 10px;
+    width: 40px;
+}
+.inbox {
+    background: url(../images/inbox.png) center no-repeat;
+}
+.facebook {
+    background: url(../images/facebook.png) center no-repeat;
+}
+.twitter {
+    background: url(../images/twitter.png) center no-repeat;
+}
+.bf-content {
+    padding: 10px;
+}
