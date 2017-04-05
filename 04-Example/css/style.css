@@ -1,0 +1,219 @@
+
+body {
+    font-family: Myriad Pro;
+    font-style: 500;
+}
+.navbar {
+    background: #e1e1e1;
+    color: #ffffff;
+}
+.logo {
+    background: #53545e;
+    padding: 30px;
+}
+.text span {
+    color: #84858e;
+}
+.item1 {
+    margin-top: 160px;
+    overflow: hidden;    
+    padding: 10px 30px 30px 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.details {
+    background: #53545e;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+.item2 {
+    padding: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.item2 img {
+    margin: 20px 0;
+}
+.item3 {
+    padding: 10px 30px 30px 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.footer {
+    background: #e1e1e1;
+}
+.item4 {
+    padding: 10px 30px;
+    background: #f1f1f1;
+}
+.item4 h3 {
+    text-align: center;
+}
+.disc {
+    background: #e1e1e1;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35px;
+    width: 35px;   
+    display: block;
+}
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+.facebook {
+    background-image: url(../img/fb.png);
+}
+.rss {
+    background-image: url(../img/rss.png);
+}
+.pint {
+    background-image: url(../img/pint.png);
+}
+.dribble {
+    background-image: url(../img/dribble.png);
+}
+.google {
+    background-image: url(../img/google.png);
+}
+.link {
+    background-image: url(../img/link.png);
+}
+.flicker {
+    background-image: url(../img/flicker.png);
+}
+.item5 {
+    background: #53545e;
+    color: #f4f4f4;
+    padding: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.item5 li {
+    margin-bottom: 10px;
+}
+.item5 a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.item6 {
+    background: #53545e;
+    color: #f4f4f4;
+    padding: 20px 30px;
+} 
+.copy span {
+    color: #f4f4f4;;
+}
+@media (min-width: 1200px) {
+    body {
+    font-family: Myriad Pro;
+    font-style: 500;
+}
+.navbar {
+    background: #e1e1e1;
+    color: #ffffff;
+}
+.logo {
+    background: #53545e;
+    padding: 30px;
+}
+.text span {
+    color: #84858e;
+}
+.content {
+    background: #f1f1f1;
+    overflow: hidden;
+    clear: both;
+}
+.bg2 {
+    background: #ffffff;
+}
+.item1 {
+    margin-top: 115px;
+    overflow: hidden;    
+    padding: 10px 30px 30px 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.details {
+    background: #53545e;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
+.item2 {
+    padding: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.item3 {
+    padding: 10px 30px 30px 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.footer {
+    background: #e1e1e1;
+}
+.item4 {
+    padding: 10px 30px;
+    background: #f1f1f1;
+}
+.disc {
+    background: #e1e1e1;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35px;
+    width: 35px;   
+    display: block;
+}
+.twitter {
+    background-image: url(../img/twitter.png);
+}
+.facebook {
+    background-image: url(../img/fb.png);
+}
+.rss {
+    background-image: url(../img/rss.png);
+}
+.pint {
+    background-image: url(../img/pint.png);
+}
+.dribble {
+    background-image: url(../img/dribble.png);
+}
+.google {
+    background-image: url(../img/google.png);
+}
+.link {
+    background-image: url(../img/link.png);
+}
+.flicker {
+    background-image: url(../img/flicker.png);
+}
+.item5 {
+    background: #53545e;
+    color: #f4f4f4;
+    padding: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+.item5 li {
+    margin-bottom: 10px;
+}
+.item5 a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+.item6 {
+    background: #53545e;
+    color: #f4f4f4;
+    padding: 20px 30px;
+} 
+.copy span {
+    color: #f4f4f4;;
+}
+
+}
+
