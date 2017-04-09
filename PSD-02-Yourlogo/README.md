@@ -8,4 +8,4 @@
 
 ###### Modal
 
-![Modal](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-02-Yourlogo/screenshot-main-modal.png)
+![Modal](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-02-Yourlogo/screenshot-modal.png)
