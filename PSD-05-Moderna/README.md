@@ -8,14 +8,14 @@
 
 ###### Portfolio
 
-![Portfolio Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/05-Task/screenshot-portfolio.png)
+![Portfolio Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-05-Moderna/screenshot-portfolio.png)
 
 ###### Blog
 
-![Blog Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/05-Task/screenshot-blog.png)
+![Blog Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-05-Moderna/screenshot-blog.png)
 
 ###### Contact
 
-![Contact Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/05-Task/screenshot-contact.png)
+![Contact Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-05-Moderna/screenshot-contact.png)
 
 
