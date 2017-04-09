@@ -1,8 +1,8 @@
 
 # PSD to HTML/CSS Examples
-This repository contain all of the examples I have created using HTML/HTML5, CSS/CSS3, SCSS, Bootstrap.
+This repository contain all of the examples I have created using ** HTML/HTML5, CSS/CSS3, SCSS, Bootstrap **.
 
-This repository contain all of the examples I have created using HTML/HTML5, CSS/CSS3, SCSS, Bootstrap, Glyph-icons, Fontawesome-icons.
+This repository contain all of the examples I have created using ** HTML/HTML5, CSS/CSS3, SCSS, Bootstrap, Glyph-icons, Fontawesome-icons.**
 
 Each Example and PSD folder has it's own `README.md` file.
 
