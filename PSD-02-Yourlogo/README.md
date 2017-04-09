@@ -4,4 +4,8 @@
 ### Screenshots
 ###### Home Page
 
-![Home Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/Task-2/screenshot-main.png)
+![Home Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-02-Yourlogo/screenshot-main.png)
+
+###### Modal
+
+![Modal](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-02-Yourlogo/screenshot-main-modal.png)
