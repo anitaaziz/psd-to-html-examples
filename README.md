@@ -12,7 +12,7 @@ Here is the summary screenshots of my work, for each example/PSD folder, latest 
 
 ### PSD-01-Moderna
 Developed using Bootstrap and SCSS.
-![PSD-01-Moderna](https://github.com/anitaaziz/psd-to-html-examples/blob/master/05-Task/screenshot-blog.png)
+![PSD-01-Moderna](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-05-Moderna/screenshot-blog.png)
 
 ### PSD-02-Modulus
 Developed using Custom Styling with SCSS.
