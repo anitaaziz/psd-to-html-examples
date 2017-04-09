@@ -1,9 +1,9 @@
-# 03-Example
+# Example-05
 
 
 ### Screenshots
 ###### Home Page
 
-![Home Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/03-Example/screenshot-main.png)
+![Home Page](https://github.com/anitaaziz/psd-to-html-examples/blob/master/Example-05/screenshot-main.png)
 
 
