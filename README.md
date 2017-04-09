@@ -12,7 +12,7 @@ Here is the summary screenshots of my work, for each example/PSD folder, latest 
 
 ### PSD-05-Moderna
 
-Developed using Bootstrap and custom styling SCSS.
+Developed using Bootstrap and custom styling with SCSS.
 
 ![PSD-05-Moderna](https://github.com/anitaaziz/psd-to-html-examples/blob/master/PSD-05-Moderna/screenshot-blog.png)
 
