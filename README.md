@@ -8,11 +8,11 @@ Each Example and PSD folder has it's own `README.md` file.
 Here is the summary screenshots of my work, for each example/PSD folder, latest to older order.
 
 ## Screenshots
-### Example-GitHub
+### Example-6-GitHub
 
 Developed using **Bootstrap** and custom styling with **SCSS**.
 
-![Example-GitHub](https://github.com/anitaaziz/psd-to-html-examples/blob/master/GitHub/screenshot-activity.png)
+![Example-6-GitHub](https://github.com/anitaaziz/psd-to-html-examples/blob/master/GitHub/screenshot-activity.png)
 
 ### PSD-05-Moderna
 
